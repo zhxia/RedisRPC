@@ -13,6 +13,9 @@ if __name__ == '__main__':
     print rpcClient.sendRequest('getTime')
 
 ```
+output:
+> data: [u'2.0', u'b55a1b84-7df5-11e5-96c0-080027b4ecc6', u'sum', [1, 2, 3, 4, 7, 8, 9, 10]]
+> data: [u'2.0', u'b55a414a-7df5-11e5-96c0-080027b4ecc6', u'getTime', []]
 
 server.py
 
