@@ -1,5 +1,10 @@
 # RedisRPC
-use redis implement Remote Procedure Call Protocol
+use redis implement Remote Procedure Call Protocol,depends on packages msgpack-python,redis-py
+
+    sudo pip install msgpack-python
+    sudo pip install redis
+
+
 
 ### example: ###
 client.py
