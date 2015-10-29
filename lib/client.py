@@ -37,9 +37,3 @@ class RedisRpcClient(object):
         except:
             reply = None
         return reply
-
-
-if __name__ == '__main__':
-    cl = client()
-    print cl.sendRequest('sum', (1, 2, 3, 4, 7, 8, 9, 10))
-    print cl.sendRequest(method='getTime')
