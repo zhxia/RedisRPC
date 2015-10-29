@@ -1,2 +1,4 @@
 # RedisRPC
-use redis implements Remote Procedure Call Protocol
+use redis implement Remote Procedure Call Protocol
+
+### example: ###

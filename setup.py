@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='RedisRpc',
     version='1.0.0',
-    packages=['lib'],
+    packages=['redisrpc'],
     url='http://www.cnblogs.com/xiazh/',
     license='LICENSE.txt',
     author='zhxia',

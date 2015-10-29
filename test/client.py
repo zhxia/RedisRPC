@@ -1,6 +1,6 @@
 __author__ = 'zhxia'
 
-from lib.client import RedisRpcClient
+from redisrpc.client import RedisRpcClient
 
 if __name__ == '__main__':
     rpcClient = RedisRpcClient()
